@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    background-color: purple;
+    height: 3rem;
+
+    nav {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 2rem;
+
+        ul {
+            display: flex;
+            gap: 3rem;
+
+            li {
+                list-style-type: none;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
